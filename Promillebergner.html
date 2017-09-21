@@ -1,0 +1,53 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bajer Express - Promilleberegner</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1><font size="1000" color="black">Bajer Express</font></h1>
+		</div>
+        <div id="content">
+		<table>
+		<form action="side.php" method="POST">
+		<tbody>
+      <th>Udregning af promille:</th>
+      <tr>
+        <td>Hvilket køn?
+        <td>
+          <input type="radio" name="gender" value="Man"> Mand<br>
+          <input type="radio" name="gender" value="woman">Kvinde<br>
+        <td>
+      <tr>
+			<tr>
+				<td>Vægt:</td>
+				<td>
+					<input type="number" name="weight" value="Vægt i kg">
+				</td>
+			</tr>
+			<tr>
+			<td>Genstande:</td>
+			<td>
+				<input type="number" name="units" value="Antal genstande">
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<!-- <input type="submit" value="Beregn Promille"> -->
+        <input type="submit" value="Beregn Promille" onclick="alert('Hello World!')">
+        <!-- <button type="submit" onclick="alert('Hello World!')">Click Me!</button> -->
+			</td>
+			</tr>
+		</tbody>
+		</table>
+		</div>
+        <div id="footer">
+
+		</div>
+
+
+    </div>
+</body>
+</html>
