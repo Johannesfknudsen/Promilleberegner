@@ -10,7 +10,7 @@
     background-image: url("bajer_head.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-	text-align: center;
+	  text-align: center;
     height: 200px;
     width: 1358px;
     padding: 20px;
@@ -18,7 +18,7 @@
 }
 
 #footer {
-    background-color: #2f2f1c;
+    background-color: #3c6125;
     height: 100px;
     width: 100%;
     text-align: center;
@@ -26,6 +26,7 @@
     margin: auto;
     position: absolute;
     top: 100%
+
 
 
 }
