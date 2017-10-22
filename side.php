@@ -6,10 +6,9 @@ $man = $_POST["Man"];
 $woman = $_POST["Woman"];
 if ($man == true) {
     $fluid = 0.68;
-} else {
-  if ($woman == true) {
+}
+if ($woman == true) {
       $fluid = 0.55;
-  }
 }
 echo $fluid;
 $result = ($units * 12)/($weight * 0.68);
